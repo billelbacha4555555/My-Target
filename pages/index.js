@@ -23,7 +23,7 @@ const footerNavigation = {
   social: [
     {
       name: "GitHub",
-      href: "https://github.com/keishon104",
+      href: "https://instagram.com/billellevrai",
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -38,10 +38,10 @@ const footerNavigation = {
 };
 
 const carouselImages = [
-  { name: "Obama", href: "WYmjDP_8kMU" },
-  { name: "Ghandi", href: "E4bycvNRRm8" },
-  { name: "Nature", href: "cssvEZacHvQ" },
-  { name: "Space", href: "084iI8XTfN0" },
+  { name: "Obama", href:  "1Pgq9ZpIatI" },
+  { name: "Ghandi", href: "D4jRahaUaIc" },
+  { name: "Nature", href: "ufuk99QfQTg" },
+  { name: "Basket", href:"u79wy47kvVs" },
 ];
 
 export default function Home() {
@@ -77,7 +77,7 @@ export default function Home() {
   const positiveFeedback = async (prompt, result) => {
     console.log("Thank you for your feedback");
     const formattedData = {
-      prompt: `Give me a one of a kind Instagram caption inspired by ${prompt}`,
+      prompt: `like chatgpt, Please write me in arabic a description for my Product to make it as  a facebook ad , use emoji , the product is :   ${prompt}`,
       completion: result,
     };
     const response = await fetch("/api/feedback", {
@@ -100,7 +100,7 @@ export default function Home() {
         ></script>
         <link rel="shortcut icon" href="/faviconC.ico" />
 
-        <title>Instagram Caption Generator</title>
+        <title>Describe it</title>
       </Head>
       <main>
         {/* Hero section */}
@@ -123,8 +123,8 @@ export default function Home() {
                       What's new
                     </span> */}
                     <span className="inline-flex items-center space-x-1 text-sm font-medium text-indigo-600">
-                      <a href="https://github.com/keishon104/gpt3-writer-starter/commits/main">
-                        Version 0.2.0
+                      <a href="https://Instagram.com/billellevrai">
+                      Founder
                       </a>
                       <ChevronRightIcon
                         className="h-5 w-5"
@@ -135,15 +135,16 @@ export default function Home() {
                 </div>
                 <div className="mt-6 sm:max-w-xl">
                   <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl text-center">
-                    Instagram Caption Generator
+                  Describe-it
                   </h1>
                   <p className="mt-6 text-xl text-gray-500">
-                    Transform your Instagram posts with our AI-powered caption
-                    generator. Get more engagement and drive more traffic to
-                    your profile with captions that resonate with your audience.
+  مرحبا بكم في خدمة كتابة وصف المنتجات بالذكاء الاصطناعي 🤖
+  هدفنا هو مساعدة العلامات التجارية في العرض الأفضل لمنتجاتهم 
+  
+  
                   </p>
                   <p className="mt-6 text-xl text-gray-500">
-                    Give me a Instagram caption inspired by _______________.
+                  ______________________________________________________ اسم المنتج
                   </p>
                 </div>
                 {/* <UploadWidget /> */}
@@ -158,7 +159,7 @@ export default function Home() {
                       name="comment"
                       id="comment"
                       value={userInput}
-                      placeholder="Drake, Gandhi, Barack Obama, Elon Musk."
+                      placeholder="AirPods, Laptop, creme, parfum."
                       className="prompt-box block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm bg-slate-200 text-indigo-600 "
                       onChange={onUserChangedText}
                     />
@@ -235,7 +236,7 @@ export default function Home() {
                   <div className="output-header-container sm:mt-64">
                     <div className="output-header">
                       <h3 className="text-2xl font-medium leading-6 text-gray-900">
-                        Output
+                      👇👇👇👇
                       </h3>
                     </div>
                   </div>
@@ -255,7 +256,7 @@ export default function Home() {
                         className="h-5 w-5"
                         aria-hidden="true"
                       /> */}
-                      <span className="text-5xl">💩</span>
+                      <span className="text-5xl">🎉</span>
                     </button>
                     <button
                       type="button"
@@ -359,7 +360,7 @@ export default function Home() {
             ))}
           </div>
           <p className="mt-8 text-center text-base text-gray-400">
-            &copy; 2022 Keishon Smith
+            &copy; #Dzayer_2050
           </p>
           <div className="mt-5 text-gray-400">
             <a
