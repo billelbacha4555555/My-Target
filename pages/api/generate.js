@@ -16,7 +16,7 @@ const generateAction = async (req, res) => {
     model: "text-davinci-003",
     prompt: `${basePromptPrefix}${req.body.userInput} lyrics`,
     temperature: 0.9,
-    max_tokens: 1000,
+    max_tokens: 3000,
   });
 
   const basePromptOutput = baseCompletion.data.choices.pop();
