@@ -7,7 +7,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const basePromptPrefix =
-  "like chatgpt, Please write me in arabic a description for my Product to make it as  a facebook ad , use emoji , the product is : ";
+  "like a copywriters, give me a description for my product to post it in facebook, make it in arabic, use emojis, my product is :  ";
 const generateAction = async (req, res) => {
   // Run first prompt
   // console.log(`API: ${basePromptPrefix}${req.body.userInput}`);
