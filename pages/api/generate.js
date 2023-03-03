@@ -7,7 +7,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const basePromptPrefix =
-  "Give me a one of a kind Instagram caption inspired by ";
+  "like chatgpt, Please write me in arabic a description for my Product to make it as  a facebook ad , use emoji , the product is : ";
 const generateAction = async (req, res) => {
   // Run first prompt
   // console.log(`API: ${basePromptPrefix}${req.body.userInput}`);
@@ -15,8 +15,8 @@ const generateAction = async (req, res) => {
   const baseCompletion = await openai.createCompletion({
     model: "text-davinci-003",
     prompt: `${basePromptPrefix}${req.body.userInput} lyrics`,
-    temperature: 0.95,
-    max_tokens: 100,
+    temperature: 0.9,
+    max_tokens: 1000,
   });
 
   const basePromptOutput = baseCompletion.data.choices.pop();
