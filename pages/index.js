@@ -77,7 +77,7 @@ export default function Home() {
   const positiveFeedback = async (prompt, result) => {
     console.log("Thank you for your feedback");
     const formattedData = {
-      prompt: `Write a description for my product to use as a Facebook ad. Include its features and benefits, and translate the paragraph to Arabic. Use emojis to make it more engaging. The product name is ${prompt}`,
+      prompt: `Write a description in arabic for my product to use as a Facebook ad. Include its features and benefits,Use emojis to make it more engaging. The product name is :  ${prompt}`,
       completion: result,
     };
     const response = await fetch("/api/feedback", {
