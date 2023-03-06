@@ -6,12 +6,12 @@ export default function Document() {
       <Head>
         <meta
           property="og:title"
-          content="Instagram Caption Generator"
+          content="describeit"
           key="title"
         />
         <meta
           property="og:description"
-          content="Instagram Caption Generator"
+          content="describeit"
           key="description"
         />
         <meta
