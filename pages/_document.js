@@ -6,12 +6,12 @@ export default function Document() {
       <Head>
         <meta
           property="og:title"
-          content="describe-it"
+          content="describe-it.dz"
           key="title"
         />
         <meta
           property="og:description"
-          content="describeit"
+          content="وصف المنتجات بالذكاء الإصطناعي"
           key="description"
         />
         <meta
