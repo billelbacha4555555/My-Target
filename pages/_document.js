@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <meta
           property="og:title"
-          content="describeit"
+          content="describe-it"
           key="title"
         />
         <meta
