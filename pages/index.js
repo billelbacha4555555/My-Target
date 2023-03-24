@@ -92,6 +92,9 @@ export default function Home() {
   return (
     <div className="bg-white">
       <Head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5205843473665539"
+     crossorigin="anonymous">
+    </script>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* <Script src="https://upload-widget.cloudinary.com/global/all.js" /> */}
         <script
