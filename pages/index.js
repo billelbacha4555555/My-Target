@@ -164,7 +164,7 @@ export default function Home() {
                       name="comment"
                       id="comment"
                       value={userInput}
-                      placeholder="AirPods, Laptop, creme, parfum."
+                      placeholder="anything......."
                       className="prompt-box block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm bg-slate-200 text-indigo-600 "
                       onChange={onUserChangedText}
                     />
