@@ -7,7 +7,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const basePromptPrefix =
-  "Write a description in french for my product to use as a Facebook ad, Use emojis to make it more engaging. The product name is :";
+  "You're a Facebook advertising manager helping me set up a campaign for my product, you know all facebook target audience list Can you provide me with ten target audience ,  knowing that my product is :  ";
 const generateAction = async (req, res) => {
   // Run first prompt
   // console.log(`API: ${basePromptPrefix}${req.body.userInput}`);
