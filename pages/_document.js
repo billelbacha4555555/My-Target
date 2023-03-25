@@ -6,12 +6,12 @@ export default function Document() {
       <Head>
         <meta
           property="og:title"
-          content="describe-it.dz"
+          content="My-target.dz"
           key="title"
         />
         <meta
           property="og:description"
-          content="وصف المنتجات بالذكاء الإصطناعي"
+          content=" تحديد الهدف بالذكاء الاصطناعي"
           key="description"
         />
         <meta
