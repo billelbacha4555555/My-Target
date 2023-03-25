@@ -38,10 +38,10 @@ const footerNavigation = {
 };
 
 const carouselImages = [
-  { name: "Obama", href:  "1Pgq9ZpIatI" },
-  { name: "Ghandi", href: "D4jRahaUaIc" },
-  { name: "Nature", href: "ufuk99QfQTg" },
-  { name: "Basket", href:"u79wy47kvVs" },
+  { name: "Obama", href:  "Tk9m_HP4rgQ" },
+  { name: "Ghandi", href: "-UsJoNxLaNo" },
+  { name: "Nature", href: "CiSizRTO8U8" },
+  { name: "Basket", href:"rqnaRQCEVsE" },
 ];
 
 export default function Home() {
