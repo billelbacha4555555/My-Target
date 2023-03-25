@@ -77,7 +77,8 @@ export default function Home() {
   const positiveFeedback = async (prompt, result) => {
     console.log("Thank you for your feedback");
     const formattedData = {
-      prompt: `Write a description in french for my product to use as a Facebook ad, Use emojis to make it more engaging. The product name is :  ${prompt}`,
+      prompt: `You're a Facebook advertising manager helping me set up a campaign for my product, 
+      you know all facebook target audience list Can you provide me with ten target audience ,  knowing that my product is :  ${prompt}`,
       completion: result,
     };
     const response = await fetch("/api/feedback", {
@@ -103,7 +104,7 @@ export default function Home() {
         ></script>
         <link rel="shortcut icon" href="/faviconC.ico" />
 
-        <title>Describe it</title>
+        <title>My-Target</title>
       </Head>
       <main>
         {/* Hero section */}
@@ -141,8 +142,8 @@ export default function Home() {
                   Describe-it
                   </h1>
                   <p className="mt-6 text-xl text-gray-500">
-  مرحبا بكم في خدمة كتابة وصف المنتجات بالذكاء الاصطناعي 🤖
-  هدفنا هو مساعدة العلامات التجارية في العرض الأفضل لمنتجاتهم 
+  مرحبا بكم في خدمة تحديد الهدف بالذكاء الاصطناعي 🤖 ، مهمتنا تحديد الجمهور المناسب لمنتجك
+ 
   
   
                   </p>
