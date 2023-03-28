@@ -91,7 +91,7 @@ export default function Home() {
     callGenerateEndpoint();
   };
   return (
-    <div className="bg-black">
+    <div className="bg-Red">
       <Head>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5205843473665539"
      crossorigin="anonymous">
