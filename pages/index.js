@@ -91,7 +91,7 @@ export default function Home() {
     callGenerateEndpoint();
   };
   return (
-    <div className="bg-white">
+    <div className="bg-black">
       <Head>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5205843473665539"
      crossorigin="anonymous">
@@ -185,7 +185,7 @@ export default function Home() {
                           <button
                             onClick={callGenerateEndpoint}
                             type="button"
-                            className="inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                            className="inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-black shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                           >
                             Generate
                           </button>
@@ -254,7 +254,7 @@ export default function Home() {
                     <button
                       type="button"
                       onClick={callGenerateEndpoint}
-                      className="relative inline-flex items-center rounded-l-md border border-gray-300 bg-white px-2 py-2 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"
+                      className="relative inline-flex items-center rounded-l-md border border-gray-300 bg-black px-2 py-2 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"
                     >
                       <span className="sr-only">Negative</span>
                       {/* <HandThumbDownIcon
@@ -266,7 +266,7 @@ export default function Home() {
                     <button
                       type="button"
                       onClick={callGenerateEndpoint}
-                      className="relative -ml-px inline-flex items-center  border border-gray-300 bg-white px-2 py-2 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"
+                      className="relative -ml-px inline-flex items-center  border border-gray-300 bg-black px-2 py-2 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"
                     >
                       <span className="sr-only">Neutral</span>
                       {/* <HandThumbUpIcon className="h-5 w-5" aria-hidden="true" /> */}
@@ -275,7 +275,7 @@ export default function Home() {
                     <button
                       type="button"
                       onClick={() => positiveFeedback(userInput, apiOutput)}
-                      className="relative -ml-px inline-flex items-center rounded-r-md border border-gray-300 bg-white px-2 py-2 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"
+                      className="relative -ml-px inline-flex items-center rounded-r-md border border-gray-300 bg-black px-2 py-2 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"
                     >
                       <span className="sr-only">Positive</span>
                       {/* <HandThumbUpIcon className="h-5 w-5" aria-hidden="true" /> */}
